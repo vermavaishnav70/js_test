@@ -1,0 +1,12 @@
+{
+  "name": "js_test",
+  "version": "1.0.0",
+  "description": "## Problem Transform date-based dictionary to day-of-week dictionary with linear interpolation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

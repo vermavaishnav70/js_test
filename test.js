@@ -69,6 +69,25 @@ assert(result3.Mon === 60, "Monday sum (10+20+30=60)");
 assert(result3.Tue === 5, "Tuesday value (5)");
 console.log();
 
+// Test Case 4: Missing days at the beginning and end
+console.log("TEST 4: Missing Days at Beginning and End");
+const D4 = {
+  "2020-01-02": 10,
+  "2020-01-05": 20,
+  "2020-01-08": 30,
+};
+const expected4 = {
+  Mon: 23,
+  Tue: 26,
+  Wed: 30,
+  Thu: 10,
+  Fri: 13,
+  Sat: 16,
+  Sun: 20,
+};
+assertDeepEqual(solution(D4), expected4, "Missing days interpolation");
+console.log();
+
 // Summary
 console.log("=".repeat(70));
 console.log(`SUMMARY: ${passedTests}/${totalTests} tests passed`);
