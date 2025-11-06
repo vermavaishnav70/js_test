@@ -10,8 +10,7 @@ The output maps weekdays (`Mon` → `Sun`) to aggregated and interpolated values
 Run the tests with 
 ```bash
 npm test
-
-
+```
 ## Example
 
 Input:
